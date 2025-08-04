@@ -27,7 +27,7 @@ const LeaderBoard = () => {
   }, []);
 
   return (
-    <div className="min-w-3xl w-[97vw] mx-auto mt-10 bg-white rounded-xl shadow-lg p-6">
+    <div className=" w-full sm:w-[97vw] mx-auto mt-10 bg-white rounded-xl shadow-lg p-6">
       <h2 className="text-2xl font-bold text-center mb-6 text-[#4157ff]">🏆 Leaderboard</h2>
       <div className="grid grid-cols-3 font-semibold border-b pb-2 mb-2 text-gray-700">
         <span>Rank</span>
